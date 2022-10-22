@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JRSK Booking | Register</title>
+        <meta name="charset" content="UTF-8">
+		<meta name="author" content="Jeremee Cayde, Kurt Colonia, Rotsen David, Sean Ysagun">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <link rel="stylesheet" href="styles/register-style.css">
+    <link rel="icon" href="images/logo.png">
+
+    <body>
+        <div class="topNav">
+            <div class="navBar">
+                <a id="banner" href="home.html"><img src="images/Banner_v2.png"></a>
+                <a class="navOptions" href="login.html">Sign In</a>
+                <a class="navOptions" href="register.html">Register</a>
+                <a class="navOptions" href="contact-us.html" title="Contact Us">Contact Us</a>
+                <a class="navOptions" href="about-us.html" title="About Us">About Us</a>
+            </div>
+        </div>
+
+        <div class="form-bg">
+            <span class="register-form">
+                <h2>Create your account</h2>
+
+                <form id="registerForm" action="login.html">
+                    <span class="email-container">
+                        <label for="email">E-mail</label><br>
+                        <input type="text" placeholder="E-mail Address" name="email" id="email" required="required" autocomplete="off">
+                    </span>
+
+                    <label for="firstName" style="float:left;">First Name</label>
+                    <label for="lastName">Last Name</label><br>
+                    <input type="text" placeholder="Juan" name="firstName" id="firstName" rewuired="required" autocomplete="off">
+                    <input type="text" placeholder="Dela Cruz" name="lastName" id="lastName" rewuired="required" autocomplete="off"><br>
+
+                    <label for="password" style="float:left;">Password</label>
+                    <label for="passwordConfirm">Confirm</label><br>
+                    <input type="password" placeholder="Password" name="password" id="password" rewuired="required" autocomplete="off">
+                    <input type="password" placeholder="Confirm Password" name="passwordConfirm" id="passwordConfirm" rewuired="required" autocomplete="off">
+                </form>
+                
+                <button type="submit" form="registerForm" class="register-button" value="Submit">Register</button>
+            </span>
+        </div>
+
+        <div class="footer">
+            <p title="Copyright">Copyright © 2022-2023 JRSK Booking. All rights reserved.</p>
+        </div>
+    </body>
+</html>

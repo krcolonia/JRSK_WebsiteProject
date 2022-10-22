@@ -1,0 +1,104 @@
+@font-face { 
+	font-family:Heavitas;
+	src:url('font/Heavitas.ttf');
+} 
+
+body {
+	margin:0%;
+}
+
+.accountOption {
+	float:right;
+	width:10%;
+	margin:1%;
+	display:inline;
+}
+
+.accountOption button{
+	font-family:Heavitas;
+	background-color:#9ED2C6;
+	margin:2px;
+	border-radius:3px;
+	text-decoration:none;
+	color:white;
+	border:none;
+	cursor:pointer;
+	padding:1%;
+}
+
+#banner {
+	margin:0;
+	padding:0;
+}
+
+.banner {
+	margin:0;
+	padding:0;
+}
+
+.banner img {
+	height:100%;
+}
+
+.main {
+	text-align:center;
+	width:100%;
+	height:140%;
+	margin-top:2.5%;
+}
+
+.search {
+	background-color:#54BAB9;
+	padding:0.5%;
+	display:inline;
+	border-radius:3px;
+}
+
+#searchBar {
+	border-radius:3px;
+	border:none;
+}
+
+#searchButton {
+	border-radius:3px;
+	border:none;
+	background-color:#9ED2C6;	
+}
+
+.recommendedLocation {
+	background-color:#54BAB9;
+	border-radius:3px;
+	width:150px;
+}
+.recommendedLocation img {
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	width:150px;
+	height:100px;
+	padding:0px;
+}
+.recommendedLocation p {
+	border-bottom-left-radius:3px;
+	font-family:Heavitas;
+	border-bottom-right-radius:3px;
+	margin-top:0px;
+	padding-top:0.5%;
+	padding-bottom:0.5%;
+	background-color:#54BAB9;
+	width:150px;
+	text-align:center;
+}
+
+.recTable {
+	display:flex;
+	justify-content:center;
+	flex-direction:row;
+	margin-top:2%;
+}
+
+.recTable a {
+	text-decoration:none;
+	color:white;
+	margin:0.5%;
+}
+

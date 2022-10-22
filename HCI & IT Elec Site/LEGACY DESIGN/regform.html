@@ -1,0 +1,67 @@
+ <html>
+	<head>
+		<title>Registration Form</title>
+	</head>
+	<style>
+		body {
+		background-color:#F7ECDE;
+		}
+		@font-face { 
+		font-family:Heavitas;
+		src:url(font/Heavitas.ttf);
+		} 
+		td {
+		padding:10;
+		font-family:Heavitas;
+		}
+		#sub {
+		padding:5;
+		font-family:Heavitas;
+		border-radius:3px;
+		}
+		#head {
+		padding:5;
+		font-family:Heavitas;
+		font-size:35px;
+		color:#F7ECDE;
+		}
+		#formhead {
+		font-family:Heavitas;
+		color:#F7ECDE;
+		}
+		#tb {
+		border-radius:5px;
+		}
+	</style>
+<body>
+	<table id="tb" width="650px" align="center" bgcolor="#54BAB9"> 
+		<td><center id="head">Registration</center></td>
+	<ul>
+	<form method="POST" action="login.html" name="form1" onSubmit="submit verify()" target="_parent">
+
+	</table><br /><br />
+
+	<center><table id="tb" width="450px" height="250px" align="center" bgcolor="#54BAB9">
+		<td><ul><label id="formhead" for="userid">Username:</label>
+			<input type="text" required="required" name="UserID" placeholder="Username"></ul>
+
+		<ul><label id="formhead" for="password">Password:</label>
+		<input type="password" required="required" name="Password" placeholder="Password"></ul>
+		
+		<ul><label id="formhead" for="email">E-mail:</label>
+			<input type="text" required="required" name="E-mail" placeholder="sample.email@email.com"></ul>
+		
+		<ul><label id="formhead">Country</label>
+			<select>
+			 	<option value="Default">Choose Country...</option>
+				<option value="US">USA</option>
+				<option value="UK">United Kingdom</option>
+				<option value="PH">Philippines</option>
+				<option value="JP">Japan</option>
+				<option value="KR">Korea</option>
+			</select></ul>
+		<center><input id="sub" type="submit" value="Submit"></center>
+		</td>
+	</table></center>
+</body>
+</html>

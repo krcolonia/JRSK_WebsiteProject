@@ -1,0 +1,30 @@
+@font-face { 
+	font-family:Heavitas;
+	src:url('font/Heavitas.ttf');
+} 
+
+body
+	{
+		background-color:#54BAB9;
+}
+body
+	{
+		overflow-y: hidden;
+		overflow-x: hidden;
+}
+
+#tb1
+	{
+		background-color: #9ED2C6;
+		border: none;
+		border-radius:3px;
+		padding:5px;
+		font-weight:bold;
+		margin-top:8px;
+}
+
+#tb1 a
+	{
+		text-decoration:none;
+		color:#F7ECDE;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JRSK Booking | Home Page</title>
+        <meta name="charset" content="UTF-8">
+		<meta name="author" content="Jeremee Cayde, Kurt Colonia, Rotsen David, Sean Ysagun">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+	<link rel="stylesheet" href="styles/home-style.css">
+	<link rel="icon" href="images/logo.png">
+
+    <body>
+        <div class="main">
+            <div class="topNav">
+                <div class="navBar">
+                    <a id="banner" href="home.html"><img src="images/Banner_v2.png"></a>
+                    <a class="navOptions" href="login.html">Sign In</a>
+                    <a class="navOptions" href="register.html">Register</a>
+                    <a class="navOptions" href="contact-us.html" title="Contact Us">Contact Us</a>
+                    <a class="navOptions" href="about-us.html" title="About Us">About Us</a>
+                </div>
+            </div>
+    
+            <div class="splashScreen">
+                <span class="subtitle">
+                    <img src="images/Banner_v2.png" class="splashLogo">
+                    <p>a Hotel Booking System You Can Trust</p>
+                </span>
+            </div>
+
+            <div class="search">
+                <form action="search.html">
+                    <input type="text" name="Search Location" id="searchLoc" placeholder="Location...">
+                    <label for="checkIn">Check-In:</label>
+                    <input type="date" name="Check-In Date" class="checkDate" placeholder="Check-In"></input>
+                    <label for="checkIn">Check-Out:</label>
+                    <input type="date" name="Check-Out Date" class="checkDate" placeholder="Check-Out"></input>
+                    <button title="Search Button"><img src="images/searchIcon.png" alt="Search"></button>
+                </form>
+            </div>
+
+            <div class="locationRec">
+                <p class="locationTitle">Try out these recommended locations!</p>
+                    <div class="locationHolder">
+                        <div class="location">
+                            <a href="location.html">
+                                <img src="images/placeholder-image.png">
+                                 <p>Location</p>
+                            </a>
+                        </div>
+                        <div class="location">
+                            <a href="location.html">
+                                <img src="images/placeholder-image.png">
+                                 <p>Location</p>
+                            </a>
+                        </div>
+                        <div class="location">
+                            <a href="location.html">
+                                <img src="images/placeholder-image.png">
+                                 <p>Location</p>
+                            </a>
+                        </div>
+                    </div>
+            </div>
+
+            <div class="footer">
+                <p title="Copyright">Copyright © 2022-2023 JRSK Booking. All rights reserved.</p>
+            </div>
+
+        <script src="scripts/home-script.js"></script>
+        
+    </body>
+</html>
