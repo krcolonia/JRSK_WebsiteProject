@@ -3,7 +3,7 @@ A website developed as a requirement for HCI and IT Elective (Web Development) f
 
 IF YOU ARE READING THIS AND YOU ARE NOT ANY OF THE FOLLOWING PEOPLE:
 
-COLONIA, KURT ROBIN P. | 
+| COLONIA, KURT ROBIN P. | 
 CAYDE, JEREMEE CARREON | 
 DAVID, ROTSEN | 
 YSAGUN, SEAN DENMAR | 
