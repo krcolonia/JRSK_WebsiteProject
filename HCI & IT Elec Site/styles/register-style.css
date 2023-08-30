@@ -1,0 +1,198 @@
+@import "colorPalette.css";
+
+input[type=number]::-webkit-outer-spin-button,
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance:none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield;
+}
+
+.bodySection {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+.navOptions.register {
+    display:block;
+    float:right;
+    text-decoration:none;
+    color:var(--antiqueWhite);
+    font-size:2vh;
+    padding:2vh;
+    padding-top:3.5vh;
+    padding-right:5px;
+    background-color:var(--verdigris);
+}
+
+.navOptions.register:hover {
+    background-color:var(--verdigris);
+}
+
+.info{
+    box-shadow:0px 0px 10px gray;
+    width:65vh;
+    min-width:300px;
+    /*min-height:0;*/
+    background-color:   whitesmoke;
+    margin-top:15vh;
+    border-radius: 3vh;
+    padding-top:0;
+    padding-bottom:5vh;
+}
+
+.content {
+    overflow:hidden;
+}
+
+.regFieldset {
+    border:none;
+}
+
+.container {
+    display:inline-block;
+    margin:1vh;
+    margin-left:0;
+    margin-right:0;
+}
+
+.container input {
+    width:14vw;
+    min-width:150px;
+    height:35px;
+}
+
+.container select {
+    width: 14.5vw;
+    min-width:150px;
+    height:39px;
+}
+
+.nameCont, .emailCont, .contactNoCont, .genderBirthCont, .passwordCont {
+    display:flex;
+    justify-content:space-evenly;
+}
+
+.nameCont {
+    margin-top:3vh;
+}
+
+.emailCont, .contactNoCont, .passwordCont {
+    padding-left:0.5vh;
+    padding-right:0.5vh; 
+}
+
+.emailCont input, .contactNoCont input, .passwordCont input{
+    width:28vw;
+    min-width: 310px;
+}
+
+.registerTitle {
+    display:inline-block;
+    width:100%;
+    color: #F7ECDE;
+    text-transform: uppercase;
+    text-align:center;
+    background-color:#54BAB9;
+    border-radius:3vh 3vh 0 0;
+}
+
+.privacypolicy {
+    margin-top:0;
+    text-align:center;
+}
+
+.ppolicyButton {
+    border:none;
+    padding:0;
+    background-color:transparent;
+    font-size:1em;
+    color:blue;
+    text-decoration:underline;
+}
+
+.ppolicyCloseButton {
+    position:absolute;
+    align-self:flex-start;
+    top:0;
+    margin:1vh;
+    padding:5px;
+    font-size:1em;
+    border:none;
+    background-color:var(--seaFoamGreen);
+    border-radius: 1vh;
+}
+
+.registerButton {
+    display:block;
+    margin:0 auto;
+    margin-bottom:2vh;
+    background-color:#54BAB9;
+    border-style:none;
+    color:#FFFFFF;
+    font-size:3vh;
+    padding:1vh;
+    border-radius:1vh;
+}
+
+.registerButton:hover {
+    display:block;
+    margin:0 auto;
+    margin-bottom:2vh;
+    background-color:#9ED2C6;
+    border-style:none;
+    color:#FFFFFF;
+    padding:1vh;
+    border-radius:1vh;
+}
+
+.privacypolicyWindow {
+    display:none;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    background-color:var(--antiFlashWhite);
+    position:fixed;
+    align-self: center;
+    top:15vh;
+    width:75%;
+    height:80%;
+    border-radius:1vh;
+    box-shadow:0px 0px 10px gray;
+}
+
+.ppolicyTitle {
+    display:inline-block;
+    width:100%;
+    color: #F7ECDE;
+    text-transform: uppercase;
+    text-align:center;
+    background-color:#54BAB9;
+    border-radius:1vh 1vh 0 0;
+}
+
+.privacypolicyWindow iframe {
+    width:100%;
+    height:100%;
+    margin-right:1vw;
+    border:none;
+}
+
+.policy-content {
+    border: 4px solid lightgray;
+    margin: 5%;
+    padding-left:2vw;
+    padding-right:2vw;
+    padding-top:1vh;
+    padding-bottom:1vh;
+    font-family: "Coolvetica";
+}
+
+.footer {
+    /*position:absolute;*/
+    bottom:0;
+}

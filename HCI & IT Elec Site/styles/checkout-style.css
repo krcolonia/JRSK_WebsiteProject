@@ -1,0 +1,160 @@
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    background-image: url("../images/landing-page-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0px;
+    display:flex;
+    flex-direction:column;
+}
+
+.info{
+    box-shadow:0px 0px 10px gray;
+    width:70%;
+    height:100%;
+    background-color:   whitesmoke;
+    object-position: 50% 100%;
+    margin: 3% auto;
+    margin-top:15vh;
+    margin-bottom:5vh;
+    border-radius: 3vh;
+    padding-top:0;
+}
+
+.content {
+    overflow:hidden;
+}
+
+.checkoutTitle {
+    display:inline-block;
+    width:100%;
+    color: #F7ECDE;
+    font-family: "Heavitas";
+    text-transform: uppercase;
+    text-align:center;
+    background-color:#54BAB9;
+    border-radius:3vh 3vh 0 0;
+}
+
+.checkoutDiv {
+    display:flex;
+    justify-content:center;
+}
+
+.guestInfo1, .paymentInfo {
+    display:inline-block;
+    padding-top:3vh;
+    padding-right:5vw;
+}
+
+.additionalInfo {
+    padding-bottom:3vh;
+    padding-right:2vw;
+}
+
+.guestTitle, .paymentTitle{
+    margin:0;
+    margin-bottom:1.5vh;
+    font-family:"Heavitas";
+    font-size:1.2em;
+    border-bottom:solid 0.1vh;
+}
+
+.guestInfo1 input, .guestinfo2 input, .paymentInfo input, .paymentInfo select {
+    margin-top:0.5vh;
+    margin-bottom:0.5vh;
+    width:13vw;
+}
+
+.paymentInfo {
+    margin-right:16vw;
+}
+
+.guestInfo2 {
+    display:inline-block;
+    padding-top:3vh;
+    padding-right:2vh;
+}
+
+.age{
+    display:inline-block;
+    margin-top:1vh;
+    padding-right:2vw;
+}
+
+.birthday{
+    display:inline-block;
+    margin-top:1vh;
+}
+
+.age input{
+    width:2vw;
+}
+
+.formDiv {
+    display:inline-block;
+}
+
+.checkoutSummary {
+    display:inline-block;
+    vertical-align:top;
+    background-color:#FFFFFF;
+    width:25vw;
+    min-height:0;
+    border-radius:0.4em;
+    border:solid 1px;
+    margin:5vh;
+    margin-left:1vw;
+    margin-right:0;
+}
+
+.summaryTitle {
+    font-size:1.1em;
+    font-family:"Heavitas";
+    margin-top:1vh;
+    margin-bottom:1vh;
+    text-align:center;
+}
+
+.summaryContent {
+    margin-top:2.5vh;
+    margin-left:2vw;
+    margin-right:3vw;
+    margin-bottom:2.5vh;
+    min-height:60vh;
+}
+
+.roomPrice {
+    display:block;
+    text-align:right;
+    width:8vw;
+    float:right;
+    margin:0;
+}
+
+.checkoutButton {
+    display:block;
+    margin:0 auto;
+    margin-bottom:2vh;
+    background-color:#54BAB9;
+    border-style:none;
+    font-family:"Heavitas";
+    color:#FFFFFF;
+    padding:1vh;
+    border-radius:1vh;
+}
+
+.checkoutButton:hover {
+    display:block;
+    margin:0 auto;
+    margin-bottom:2vh;
+    background-color:#9ED2C6;
+    border-style:none;
+    font-family:"Heavitas";
+    color:#FFFFFF;
+    padding:1vh;
+    border-radius:1vh;
+}

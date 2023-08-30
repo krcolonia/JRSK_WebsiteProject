@@ -1,0 +1,228 @@
+@import "colorPalette.css";
+
+.main {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+body {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.splashScreen {
+    position:static;
+    overflow:hidden;
+    margin-top:35vh;
+    width:100%;
+    text-align:center;
+}
+
+.subtitle {
+    display:inline-block;  
+    overflow:hidden;
+    background-color:var(--verdigris);
+    border-radius:2vh;
+    font-size:2.5vh;
+    color:var(--antiqueWhite);
+}
+
+.subtitle p {   
+    margin-top:0;
+}
+
+.bookNow {
+    display:flex;
+    align-items: center;
+    /*box-shadow:0px 0px 10px gray;*/
+    top:11vh;
+    height:8vh;
+    padding:2vh 1vw;
+    border-radius:1vh;
+    background-color:var(--verdigris);
+    margin-bottom:20vh;
+    margin-top:4vh;
+    user-select:none;
+    font-size:5vh;
+    color:var(--antiqueWhite);
+}
+
+.bookNow:hover {
+    background-color:#6ec4c2;
+}
+
+.numGuest {
+    float:right;
+}
+
+.show {
+    padding:1vh;
+    display:block;
+}
+
+.splashLogo {
+    height:20vh;
+}
+
+.webDesc {
+    overflow:hidden;
+    margin:0 auto;
+    margin-top:6vh;
+    width:100%;
+    min-height:100px;
+
+    box-shadow:0px 0px 10px 10px rgba(255,255,255, 0.6);
+    opacity:1;
+    background-color:rgba(255,255,255, 0.6);
+}
+
+.webDescTitleBG {
+    margin:0 auto;
+    margin-top:10vh;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    height:8vh;
+    background-color:var(--verdigris);
+    border-radius:1vh;
+}
+
+.aboutUs {
+    width:12.5vw;
+}
+
+.contactUs {
+    width:15vw;
+}
+
+.webDescTitle {
+    font-size:4vh;
+    color:var(--antiqueWhite);
+}
+
+.webDescText {
+    margin-top:0;
+    padding-top:2vh;
+    padding-bottom:4vh;
+    margin-bottom:10vh;
+    text-align:center;
+    font-size:3vh;
+}
+
+.devProfiles {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    align-items:center;
+    margin-top:4vh;
+    padding-top:3vh;
+    padding-bottom:3vh;
+}
+
+.devs {
+    justify-content:center;
+    align-items:center;
+    padding:0;
+}
+
+.devs img {
+    border-radius:50%;
+    box-shadow:1px 2px 8px black;
+    margin:2vh;
+    height:30vh;
+}
+
+.role, .name {
+    text-align:center;
+    margin:0;
+    padding:0;
+}
+
+.name {
+    font-size:3vh;
+}
+
+.homeFooter {
+    display:flex;
+    flex-direction:column;
+
+    min-height:100px;
+    background-color:var(--verdigris);
+}
+
+.contactMenu {
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items: center;
+    
+    padding-bottom:5vh;
+    padding-top:5vh;
+}
+
+.contactDescContainer, .contactUsButtonContainer {
+    padding:0;
+    display:flex;
+    flex-direction:row;
+    width:50%;
+}
+
+.contactDescContainer {
+    justify-content:flex-end;
+}
+
+.contactUsButtonContainer {
+    justify-content:flex-start;
+}
+
+.contactDescContainer div {
+    margin-right:5vh;
+}
+
+.contactDescContainer h1, .contactDescContainer p {
+    color:var(--antiqueWhite);
+    padding:0;
+    margin:0;
+}
+
+.contactDescContainer h1 {
+    font-size:8vh;
+}
+
+.contactDescContainer p {
+    font-size:5vh;
+}
+
+.contactUsButtonContainer button {
+    height:10vh;
+    width:30vh;
+    font-size:3vh;
+    color:var(--antiqueWhite);
+    margin-left:25vh;
+}
+
+.copyright p{
+    display:block;
+    text-align:center;
+    margin:0;
+    padding-bottom:5vh;
+    font-size:2vh; 
+    color:var(--antiqueWhite);
+} 
+
+button {
+    margin-top:0;
+    height:4vh;
+    font-size:3vh;
+    border-style:none;
+    border-radius:2px;
+    background-color:#9ED2C6;
+    color:#FFFFFF;
+}
+
+button:hover {
+    background-color:#73bfab;
+}

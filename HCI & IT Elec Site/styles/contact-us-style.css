@@ -1,0 +1,145 @@
+@import "colorPalette.css";
+
+.clearfix{
+    clear: both;
+}
+
+.hr{
+    size: 5px;
+}
+
+label {
+    margin:0;
+    padding:0;
+    font-size:2.5vh;
+}
+
+input {
+    font-family:"Coolvetica";
+    font-size:2.5vh;
+    height:4vh;
+    border-style:solid;
+    border-width:1px;
+    padding:0.5vh;
+    border-radius:1vh;
+    
+}
+
+.info{
+    width:70%;
+    height:100%;
+    background-color:   whitesmoke;
+    object-position: 50% 100%;
+    margin: 3% auto;
+    margin-top:15vh;
+    margin-bottom:8vh;
+    border-radius: 3vh;
+    padding-top:0;
+}
+
+.contactUsTitle {
+    display:inline-block;
+    width:100%;
+    color: #F7ECDE;
+    text-transform: uppercase;
+    text-align:center;
+    background-color:#54BAB9;
+    border-radius:3vh 3vh 0 0;
+}
+
+.contactUsTitle h2 {
+    font-family:"Heavitas";
+}
+
+.contactUsText {
+    color:black;
+    font-family:"Coolvetica";
+    font-size:100%;
+    text-align:center;
+    margin-left:5vh;
+    margin-right:5vh;
+}
+
+.contactusCont {
+    display:flex;
+    flex-direction:column;
+}
+
+.nameCont {
+    display:flex;
+    justify-content:center;
+}
+
+.nameCont div {
+    border:none;
+}
+
+.nameCont .lastName {
+    margin-left:1vw;
+}
+
+.nameCont input {
+    margin-left:1vw;
+    width:22.5vw;
+}
+
+.emailCont {
+    align-self:center;
+    margin-top:1vh;
+    margin-bottom:1vh;
+    padding:0;
+}
+
+.emailCont input {
+    width:60vw;
+}
+
+.inquiryCont {
+    align-self:center;
+    margin-bottom:2vh;
+}
+
+.inquiryCont textarea {
+    display:block;
+    font-family:"Coolvetica";
+    font-size:2.5vh;
+    resize:none;
+    height:25vh;
+    width:60vw;
+    border-style:solid;
+    border-width:1px;
+    padding:0.5vh;
+    border-radius:1vh;
+}
+
+.submitButton {
+    display:block;
+    margin:0 auto;
+    margin-bottom:2vh;
+    background-color:var(--verdigris);
+    border-style:none;
+    font-family:"Heavitas";
+    color:#FFFFFF;
+    padding:1vh;
+    border-radius:1vh;
+}
+
+.submitButton:hover {
+    background-color:var(--seaFoamGreen);
+}
+
+.contactFieldSet {
+    border:none;
+    margin:0;
+    padding:0;
+}
+
+b{
+    color: black;
+    font-weight: 300;
+    font-size:100%;
+}
+
+.role {
+    font-family:Coolvetica;
+}

@@ -1,0 +1,25 @@
+/*
+
+JRSK Booking Developer CSS
+- Primarily used when creating divs and elements that are needed to be modified, positioned, or created.
+- This CSS file adds a dashed border around the specified elements to serve as a reference of the divs outline.
+- ONLY USER WHEN WORKING WITH HTML FILES IN LIVE SERVER. DO NOT USE WITH ACTUAL SERVER
+
+*/
+
+
+/* RENAME selector TO ANY ELEMENT, ID OR CLASS YOU WANT TO EDIT */
+
+.div {
+   border:dashed 1px black;
+}
+
+.content, .info {
+   border:none;
+}
+
+/* EXEMPTS THE HEADER AND FOOTER FROM BEING BORDERED, TO PREVENT HORIZONTAL SCROLL BAR*/
+
+.footer {
+   border:none;
+}

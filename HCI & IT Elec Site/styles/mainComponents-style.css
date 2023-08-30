@@ -1,0 +1,161 @@
+@import "colorPalette.css";
+
+/* MAIN COMPONENTS STLYE */
+
+@font-face {
+    font-family:"Heavitas";
+    src: url('../font/Heavitas.ttf') format('truetype');
+    font-family:"Coolvetica";
+    src: url('../font/Coolvetica.ttf') format('truetype');
+}
+
+* {
+    font-family:"Coolvetica";
+}
+
+html {
+    scroll-behavior:smooth;
+}
+
+body {
+    background-image: url("../images/landing-page-bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin:0;
+    padding:0;
+    display:flex;
+    flex-direction:column;
+}
+
+/* NAVBAR STLYE */
+
+.topNav {
+    position:fixed;
+    top:0;
+    width:100%;
+    height:10vh;
+}
+
+.navBar {
+    display:flex;
+    flex-direction:row;
+    position: fixed;
+    top: 0;
+    width:100%;
+    height:75px;
+    min-height:40px;
+    background-color:var(--verdigris);
+    box-shadow:0px 0px 10px gray;
+}
+
+.userName {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    color:var(--antiqueWhite);
+    font-size:3vh;
+    padding-right:1vw;
+    user-select:none;
+}
+
+.buttonCont {
+    display:flex;
+    flex-direction:row;
+    justify-content: flex-end;
+    width:100%;
+}
+
+.navButton {
+    border:none;
+    height:100%;
+    width:75px;
+    display:block;
+    background-color:var(--verdigris);
+    padding:2vh;
+}
+
+.navButton:hover {
+    background-color:#6ec4c2;
+}
+
+.menuLogo {
+    width:100%;
+    height:100%;
+}
+
+.relativeDropdown {
+    display:none;
+    margin-top:10vh;
+    padding:0;
+    width:12vw;
+    height:100vh;
+    min-width:150px;
+    float:right;
+}
+
+.navDropdown{
+    display:flex;
+    flex-direction:column;
+    position:absolute;
+    background-color:var(--verdigris);
+    width:100%;
+    height:100vh;
+    box-shadow:0px 0px 10px gray;
+}
+
+.navOptions {
+    display:block;
+    float:right;
+    font-family:"Coolvetica";
+    text-decoration:none;
+    color:var(--antiqueWhite);
+    font-size:3vh;
+    padding:2vh;
+}
+
+.navOptions:hover {
+    display:block;
+    float:right;
+    font-family:"Coolvetica";
+    text-decoration:none;
+    color:var(--antiqueWhite);
+    font-size:3vh;
+    padding:2vh;
+    margin:0;
+    background-color:#6ec4c2;
+}
+
+.signButton {
+    display:block;
+    align-self:center;
+    float:right;
+    font-family:"Coolvetica";
+    text-decoration:none;
+    color:var(--antiqueWhite);
+    padding-right:1vw;
+    margin:0;
+    font-size:3vh;
+}
+
+#banner img {
+    justify-self:flex-start;
+    height:100%;
+}
+
+/* FOOTER STLYE */
+
+.footer {
+    overflow:hidden;
+    position:relative;
+    align-self:flex-end;
+    width:100%;
+    height:8vh;
+    background-color:var(--verdigris);
+}
+
+.footer p {
+    display:inline;
+    margin:1vh;
+    font-size:1.5vh;
+    color:var(--antiqueWhite);
+} 
